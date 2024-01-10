@@ -1,0 +1,107 @@
+/* Style sheet created by: Jeremiah Satcho 11/29/2023 */
+#container {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.border {
+	max-width: 50%;
+	border: 1px solid #000000;
+}
+/* Style for body specifies a background color */
+body {
+	background-image: url("../images/homepageoption.jpg");
+	background-image: fixed;
+}
+
+h3 {
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+p {
+	margin-left: 12em;
+	margin-right: 12em;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 3em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.2em;
+	color: #FFFFFF;
+}
+
+
+nav {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+nav ul {
+	padding: 0.7em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	border-radius: 2em;
+	background-color: #000000;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+	width: 20%;
+	white-space: nowrap;
+	display: inline;
+	padding: 0.7em;
+	
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+/* Style specifies padding and margins for unordered list */
+
+
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF
+}
+
+#banner {
+	text-align: center;
+}
